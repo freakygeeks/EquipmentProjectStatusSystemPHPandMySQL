@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 27, 2016 at 11:40 AM
+-- Generation Time: Mar 08, 2016 at 02:17 AM
 -- Server version: 5.5.39
 -- PHP Version: 5.4.31
 
@@ -43,7 +43,6 @@ INSERT INTO `borrower` (`borrow_id`, `borrow_name`, `telephone`, `supervisor`, `
 (1, 'Kassim Selamat', 196655444, 'Lukman Bin Omar', 'DNS5S1', 'June 2015'),
 (2, 'Siti Zubaidah', 126655444, 'Johari Ahmad Bin Ghazali', 'DNS5S2', 'Dis 2015'),
 (3, 'None', 0, 'None', '0', '0'),
-(4, 'Syazwi azhar', 198882479, 'muhamad zaidi b mohd ali', 'dns6s1', 'dec2015');
 
 -- --------------------------------------------------------
 
@@ -189,9 +188,8 @@ CREATE TABLE IF NOT EXISTS `members` (
 --
 
 INSERT INTO `members` (`user_id`, `user`, `pass`) VALUES
-(1, 'johirwan', 'johirwan'),
-(2, 'haziq', 'haziq'),
-
+(1, 'johirwan', 'johirwan123'),
+(2, 'haziq', 'haziq123');
 
 -- --------------------------------------------------------
 
@@ -202,7 +200,7 @@ INSERT INTO `members` (`user_id`, `user`, `pass`) VALUES
 CREATE TABLE IF NOT EXISTS `status` (
 `status_id` int(11) NOT NULL,
   `status_name` varchar(30) DEFAULT NULL
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=5 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=6 ;
 
 --
 -- Dumping data for table `status`
@@ -276,7 +274,7 @@ MODIFY `user_id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=6;
 -- AUTO_INCREMENT for table `status`
 --
 ALTER TABLE `status`
-MODIFY `status_id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=5;
+MODIFY `status_id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=6;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
