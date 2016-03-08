@@ -33,7 +33,7 @@ CREATE TABLE IF NOT EXISTS `borrower` (
   `supervisor` varchar(50) DEFAULT NULL,
   `class` varchar(12) DEFAULT NULL,
   `session` varchar(11) NOT NULL
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=5 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=4 ;
 
 --
 -- Dumping data for table `borrower`
@@ -181,7 +181,7 @@ CREATE TABLE IF NOT EXISTS `members` (
 `user_id` int(11) NOT NULL,
   `user` varchar(12) DEFAULT NULL,
   `pass` varchar(12) DEFAULT NULL
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=6 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=3 ;
 
 --
 -- Dumping data for table `members`
