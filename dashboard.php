@@ -70,7 +70,7 @@
 					</table>
 			</div>";
 				
-	echo "</div></body></html><h5><br><br>NieSe&copy2016<br><br></h5>";
+	echo "</div></body></html><h5><br><br>Copyright &copy; NieSe 2016<br><br></h5>";
 ?>
 
 

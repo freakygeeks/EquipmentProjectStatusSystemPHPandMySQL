@@ -8,5 +8,5 @@
 ?>
 
 	</span><br><br>
-	<h5><br><br>NieSe&copy2016<br><br></h5></body>
+	<h5><br><br>Copyright &copy; NieSe 2016<br><br></h5></body>
 </html>

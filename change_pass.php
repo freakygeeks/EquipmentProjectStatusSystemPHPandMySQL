@@ -23,7 +23,7 @@
 			<p align='left'>
 			<input name='submit' type='submit' value='Save Password' class='submit' /><br><br>
 			</p>
-			</form><h5><br><br>Copyright NieSe@2016<br><br></h5>";
+			</form><h5><br><br>Copyright &copy; NieSe 2016<br><br></h5>";
   
     if (isset($_POST['old_password']) && isset($_POST['password']) && isset($_POST['confirm_pwd'])) 
 	{				

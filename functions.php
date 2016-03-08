@@ -1,8 +1,8 @@
 <?php
 	$dbhost = 'localhost';
 	$dbname = 'eproject';
-	$dbuser = 'dbuser';
-	$dbpass = 'dbpass';
+	$dbuser = 'root';
+	$dbpass = 'toor123456';
 	$appname = "Welcome to Equipment Project Status System";
 	
 	$connection = new mysqli($dbhost, $dbuser, $dbpass, $dbname);

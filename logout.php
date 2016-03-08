@@ -12,5 +12,5 @@
 		"You cannot log out because you are not logged in";
 ?>
 	</br><br></div>
-	<h5><br><br>Copyright NieSe@2016<br><br></h5></body>
+	<h5><br><br>Copyright &copy; NieSe 2016<br><br></h5></body>
 </html>

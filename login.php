@@ -40,7 +40,7 @@
 	<span class='fieldname'>&nbsp;</span>
 	<input type='submit' value='Login'>
 	</form><br></div>
-	</body><h5><br><br>NieSe&copy2016<br><br></h5>
+	</body><h5><br><br>Copyright &copy; NieSe 2016<br><br></h5>
 </html>
 _END;
 ?>
